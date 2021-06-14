@@ -1,0 +1,192 @@
+The best hyperparameters are: 
+{'C': 0.1, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'newton-cg'}
+
+Best Threshold=0.322429
+
+Area Under the Curve (AUC):  0.8709108126721763
+
+              precision    recall  f1-score   support
+
+           0       0.99      0.82      0.90      1320
+           1       0.13      0.80      0.23        44
+
+    accuracy                           0.82      1364
+   macro avg       0.56      0.81      0.56      1364
+weighted avg       0.96      0.82      0.88      1364
+
+
+fbeta score custom beta
+0.7381570408825439
+
+Confusion Matrix
+[[1089  231]
+ [   9   35]]
+
+
+##########################
+## Random undersampling ##
+##########################
+
+The best hyperparameters for Random undersampling are: 
+{'C': 0.1, 'class_weight': 'balanced', 'penalty': 'l1', 'solver': 'liblinear'}
+
+Best Threshold=0.413597
+
+Area Under the Curve (AUC):  0.8709108126721763
+              precision    recall  f1-score   support
+
+           0       0.99      0.82      0.90      1320
+           1       0.13      0.80      0.23        44
+
+    accuracy                           0.82      1364
+   macro avg       0.56      0.81      0.56      1364
+weighted avg       0.96      0.82      0.88      1364
+
+
+fbeta score custom beta
+0.7381570408825439
+
+Confusion Matrix
+[[1089  231]
+ [   9   35]]
+
+
+#################################
+## Under-sampling: Tomek links ##
+#################################
+
+The best hyperparameters for Tomek links are: 
+{'C': 0.1, 'class_weight': 'balanced', 'penalty': 'l1', 'solver': 'liblinear'}
+
+Best Threshold=0.326370
+
+Area Under the Curve (AUC):  0.8709108126721763
+              precision    recall  f1-score   support
+
+           0       0.99      0.82      0.90      1320
+           1       0.13      0.80      0.23        44
+
+    accuracy                           0.82      1364
+   macro avg       0.56      0.81      0.56      1364
+weighted avg       0.96      0.82      0.88      1364
+
+
+fbeta score custom beta
+0.7381570408825439
+
+Confusion Matrix
+[[1089  231]
+ [   9   35]]
+
+
+#######################################
+## Under-sampling: Cluster Centroids ##
+#######################################
+
+The best hyperparameters for Cluster Centroids are: 
+{'C': 0.1, 'class_weight': 'balanced', 'penalty': 'l1', 'solver': 'liblinear'}
+
+Best Threshold=0.436983
+
+Area Under the Curve (AUC):  0.8709108126721763
+              precision    recall  f1-score   support
+
+           0       0.99      0.82      0.90      1320
+           1       0.13      0.80      0.23        44
+
+    accuracy                           0.82      1364
+   macro avg       0.56      0.81      0.56      1364
+weighted avg       0.96      0.82      0.88      1364
+
+
+fbeta score custom beta
+0.7381570408825439
+
+Confusion Matrix
+[[1089  231]
+ [   9   35]]
+
+
+#########################
+## Random oversampling ##
+#########################
+
+The best hyperparameters for Random oversampling are: 
+{'C': 0.1, 'class_weight': 'balanced', 'penalty': 'l1', 'solver': 'saga'}
+
+Best Threshold=0.323001
+
+Area Under the Curve (AUC):  0.8709108126721763
+              precision    recall  f1-score   support
+
+           0       0.99      0.82      0.90      1320
+           1       0.13      0.80      0.23        44
+
+    accuracy                           0.82      1364
+   macro avg       0.56      0.81      0.56      1364
+weighted avg       0.96      0.82      0.88      1364
+
+
+fbeta score custom beta
+0.7381570408825439
+
+Confusion Matrix
+[[1089  231]
+ [   9   35]]
+
+
+##########################
+## Over-sampling: SMOTE ##
+##########################
+
+The best hyperparameters for SMOTE are: 
+{'C': 1, 'class_weight': 'balanced', 'penalty': 'l2', 'solver': 'sag'}
+
+Best Threshold=0.316972
+
+Area Under the Curve (AUC):  0.8709108126721763
+              precision    recall  f1-score   support
+
+           0       0.99      0.82      0.90      1320
+           1       0.13      0.80      0.23        44
+
+    accuracy                           0.82      1364
+   macro avg       0.56      0.81      0.56      1364
+weighted avg       0.96      0.82      0.88      1364
+
+
+fbeta score custom beta
+0.7381570408825439
+
+Confusion Matrix
+[[1089  231]
+ [   9   35]]
+
+
+##############################################
+## Over-sampling followed by under-sampling ##
+##############################################
+
+The best hyperparameters for SMOTETomek are: 
+{'C': 0.1, 'class_weight': 'balanced', 'penalty': 'l1', 'solver': 'liblinear'}
+
+Best Threshold=0.281215
+
+Area Under the Curve (AUC):  0.8709108126721763
+              precision    recall  f1-score   support
+
+           0       0.99      0.82      0.90      1320
+           1       0.13      0.80      0.23        44
+
+    accuracy                           0.82      1364
+   macro avg       0.56      0.81      0.56      1364
+weighted avg       0.96      0.82      0.88      1364
+
+
+fbeta score custom beta
+0.7381570408825439
+
+Confusion Matrix
+[[1089  231]
+ [   9   35]]
+

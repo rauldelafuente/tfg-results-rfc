@@ -1,0 +1,20 @@
+Best Threshold=0.875026
+
+Area Under the Curve (AUC):  0.915409779614325
+              precision    recall  f1-score   support
+
+           0       1.00      0.78      0.87      1320
+           1       0.12      0.91      0.21        44
+
+    accuracy                           0.78      1364
+   macro avg       0.56      0.84      0.54      1364
+weighted avg       0.97      0.78      0.85      1364
+
+
+fbeta score custom beta
+0.8259212198221093
+
+Confusion Matrix
+[[1028  292]
+ [   4   40]]
+

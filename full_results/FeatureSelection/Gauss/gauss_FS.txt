@@ -1,0 +1,172 @@
+Best Threshold=0.000009
+
+Area Under the Curve (AUC):  0.8915461432506887
+
+              precision    recall  f1-score   support
+
+           0       1.00      0.71      0.83      1320
+           1       0.10      0.93      0.18        44
+
+    accuracy                           0.72      1364
+   macro avg       0.55      0.82      0.50      1364
+weighted avg       0.97      0.72      0.81      1364
+
+
+fbeta score custom beta
+0.8235475896168107
+
+
+Confusion Matrix
+[[941 379]
+ [  3  41]]
+
+
+##########################
+## Random undersampling ##
+##########################
+
+Best Threshold=0.000098
+
+Area Under the Curve (AUC):  0.8806732093663912
+              precision    recall  f1-score   support
+
+           0       1.00      0.70      0.82      1320
+           1       0.09      0.93      0.17        44
+
+    accuracy                           0.71      1364
+   macro avg       0.54      0.81      0.50      1364
+weighted avg       0.97      0.71      0.80      1364
+
+
+fbeta score custom beta
+0.8184889434889434
+
+Confusion Matrix
+[[921 399]
+ [  3  41]]
+
+
+#################################
+## Under-sampling: Tomek links ##
+#################################
+
+Best Threshold=0.000008
+
+Area Under the Curve (AUC):  0.8925964187327824
+              precision    recall  f1-score   support
+
+           0       1.00      0.72      0.83      1320
+           1       0.10      0.93      0.18        44
+
+    accuracy                           0.72      1364
+   macro avg       0.55      0.82      0.51      1364
+weighted avg       0.97      0.72      0.81      1364
+
+
+fbeta score custom beta
+0.8243117847200743
+
+Confusion Matrix
+[[944 376]
+ [  3  41]]
+
+
+#######################################
+## Under-sampling: Cluster Centroids ##
+#######################################
+
+Best Threshold=0.643565
+
+Area Under the Curve (AUC):  0.8820936639118457
+              precision    recall  f1-score   support
+
+           0       1.00      0.77      0.87      1320
+           1       0.11      0.89      0.20        44
+
+    accuracy                           0.77      1364
+   macro avg       0.55      0.83      0.53      1364
+weighted avg       0.97      0.77      0.85      1364
+
+
+fbeta score custom beta
+0.8024691358024693
+
+Confusion Matrix
+[[1016  304]
+ [   5   39]]
+
+
+#########################
+## Random oversampling ##
+#########################
+
+Best Threshold=0.000286
+
+Area Under the Curve (AUC):  0.8921229338842974
+              precision    recall  f1-score   support
+
+           0       1.00      0.72      0.83      1320
+           1       0.10      0.93      0.18        44
+
+    accuracy                           0.73      1364
+   macro avg       0.55      0.82      0.51      1364
+weighted avg       0.97      0.73      0.81      1364
+
+
+fbeta score custom beta
+0.8253329204087954
+
+Confusion Matrix
+[[948 372]
+ [  3  41]]
+
+
+##########################
+## Over-sampling: SMOTE ##
+##########################
+
+Best Threshold=0.000439
+
+Area Under the Curve (AUC):  0.8945420110192838
+              precision    recall  f1-score   support
+
+           0       1.00      0.73      0.84      1320
+           1       0.10      0.93      0.19        44
+
+    accuracy                           0.74      1364
+   macro avg       0.55      0.83      0.52      1364
+weighted avg       0.97      0.74      0.82      1364
+
+
+fbeta score custom beta
+0.8302180685358255
+
+Confusion Matrix
+[[967 353]
+ [  3  41]]
+
+
+##############################################
+## Over-sampling followed by under-sampling ##
+##############################################
+
+Best Threshold=0.000385
+
+Area Under the Curve (AUC):  0.8945936639118457
+              precision    recall  f1-score   support
+
+           0       1.00      0.73      0.85      1320
+           1       0.10      0.93      0.19        44
+
+    accuracy                           0.74      1364
+   macro avg       0.55      0.83      0.52      1364
+weighted avg       0.97      0.74      0.82      1364
+
+
+fbeta score custom beta
+0.8304767840448738
+
+Confusion Matrix
+[[968 352]
+ [  3  41]]
+
